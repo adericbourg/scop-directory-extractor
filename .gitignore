@@ -1,0 +1,7 @@
+# Outputs
+located_scops.csv
+scops.csv
+
+# Environment
+.venv
+__pycache__
