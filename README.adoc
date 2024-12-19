@@ -1,0 +1,12 @@
+= Extracting SCOP directory from "les SCOPs" website
+
+> *SCOP* stands for _Société coopérative de production_, which is a cooperative owned and self-managed by its workers.
+
+This script extracts the list of SCOPs from the website and computes distance from a given location. The output is a CSV file containing also company contact data.
+
+Data are hardcoded in the script:
+
+* https://github.com/adericbourg/scop-directory-extractor/blob/main/extract.py#L12[The area to search SCOPs]
+* https://github.com/adericbourg/scop-directory-extractor/blob/main/locate.py#L11[The reference location to compute the distance from]
+
+I have no plan to change that, as this was meant to be a one-shot script for my own purpose. Yet, in case it may help someone, I'm sharing it here. I may not provide update or support on this.
